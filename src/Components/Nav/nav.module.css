@@ -13,6 +13,7 @@
     backdrop-filter: blur(15px);
     align-items: center;
     flex-direction: row;
+    border: 1px solid white;
     /* 2C74B3 */
 }
 .navControl a{
