@@ -1,0 +1,108 @@
+.aboutMeContainer{
+     height: 90vh;
+    max-width: 1400px;
+    padding: 30px;
+}
+
+.aboutMeHeader{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+color: white;
+}
+
+.aboutMeHeader h2{
+    font-size: 45px;
+    margin-bottom: .5rem;
+    -webkit-text-stroke: .7px rgb(98, 98, 110);
+    /* -webkit-text-stroke: .7px white; */
+}
+
+.aboutMeHeader p{
+    max-width: 95%;
+    font-size: 20px;
+}
+
+.aboutMeBody{
+ display: flex;
+ justify-content: space-between;
+}
+
+.aboutMeBodyBlock{
+    margin-top: 2rem;
+    color: white;
+}
+
+.aboutMeBodyBlock h4{
+    font-size: 20px;
+    margin-bottom: .5rem;
+    font-weight: 500;
+}
+
+.aboutMeBodyText{
+    border: 1px solid white;
+    max-width: 90%;
+    padding: 7px;
+    margin-bottom: .8rem;
+}
+
+.aboutMeDates{
+    color: #2C74B3;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    margin-bottom: .5rem;
+}
+
+.aboutMeDates span{
+    display: inline-block;
+    background-color: #2C74B3;
+    border: 1px solid #2C74B3 ;
+    height: .8rem;
+    width: .8rem;
+}
+
+.aboutMeBodyText h4{
+    font-size: 20px;
+}
+
+.aboutMeText{
+
+}
+
+/* MEDIA QUERY */
+@media screen and (max-width: 987px) {
+    .aboutMeContainer{
+        padding: 50px;
+
+    }
+   .aboutMeHeader p{
+    font-size: 18px;
+}
+}
+@media screen and (max-width: 670px) {
+    .aboutMeBody{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+@media screen and (max-width: 487px) {
+    .aboutMeHeader{
+        margin-top: 4rem;
+
+    }
+.aboutMeBody{
+    display: flex;
+    flex-direction: column;
+}
+.aboutMeHeader h2{
+    margin-top: 5rem;
+font-size: 30px;
+}
+.aboutMeHeader p,
+.aboutMeText{
+    font-size: 16px;
+}
+}

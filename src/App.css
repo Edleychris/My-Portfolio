@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
 
 
-*{
+*,
+*::after,
+*::before{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -12,5 +14,9 @@ body{
     overflow-x: hidden;
     font-family: 'Poppins', sans-serif;
 
+}
+a{
+  text-decoration: none;
+  color: inherit;
 }
 /* #01080f */

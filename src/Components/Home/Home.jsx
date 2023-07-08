@@ -4,7 +4,7 @@ import { CTA } from './CTA'
 
 function Home() {
   return (
-    <div className={home.homeContainer}>
+    <div id='home' className={home.homeContainer}>
     <div className={home.homeContainerText}>
       <h1>Hi, I'm Edith O.</h1>
       <h3>Frontend Developer</h3>
