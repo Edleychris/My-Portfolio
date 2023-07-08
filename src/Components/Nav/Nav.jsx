@@ -6,7 +6,7 @@ import nav from "./nav.module.css";
 
 
 
-export const Nav = () => {
+ function Nav() {
   const [activeNav, setActiveNav] = useState("#home");
 
   const handleNavClick = (navId) => {
@@ -57,3 +57,4 @@ export const Nav = () => {
     </nav>
   );
 };
+export default Nav
