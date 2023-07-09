@@ -7,6 +7,8 @@ import udem from '../../assets/udemy.png'
 import inst from '../../assets/insta.png'
 import trad from '../../assets/trading.png'
 import sportify from '../../assets/sportify.png'
+import note from '../../assets/notepad.png'
+import drag from '../../assets/dragndrop.png'
 
 function Project() {
   return (
@@ -72,7 +74,7 @@ function Project() {
             </article>
             <article className={pro.project_item}>
                 <div className={pro.project_item_image}>
-                    <img src="" alt="" />
+                    <img src={note} alt="" />
                 </div>
                 <h3>This is the Title</h3>
                 <div className={pro.project_item_cta}>
@@ -81,10 +83,11 @@ function Project() {
             </article>
             <article className={pro.project_item}>
                 <div className={pro.project_item_image}>
-                    <img src="" alt="" />
+                    <img src={drag} alt="" />
                 </div>
                 <h3>This is the Title</h3>
-                <div className={pro.project_item_cta}><a href="" target='_blank'>Github</a>
+                <div className={pro.project_item_cta}>
+                    <a href="https://github.com/Edleychris/Todo-DragNDrop" target='_blank'>Github</a>
                 <a href="https://spotify-clone-tt85.vercel.app/" target='_blank'>Live Demo</a></div>
             </article>
             <article className={pro.project_item}>
@@ -93,7 +96,7 @@ function Project() {
                 </div>
                 <h3>This is the Title</h3>
                 <div className={pro.project_item_cta}>
-                    <a href="" target='_blank'>Github</a>
+                    <a href="https://github.com/Edleychris/My-Animal-Trading-Card" target='_blank'>Github</a>
                 <a href="https://my-animal-trading-card.vercel.app/" target='_blank'>Live Demo</a></div>
             </article>
         </div>
