@@ -89,6 +89,13 @@ color: white;
         display: flex;
         flex-direction: column;
     }
+    .aboutMeBodyBlock{
+        background-color: orange;
+        width: 100%;
+    }
+.aboutMeContainer{
+    margin-top: 3rem;
+}
 
 }
 @media screen and (max-width: 487px) {
@@ -96,6 +103,10 @@ color: white;
         margin-top: 4rem;
 
     }
+.aboutMeBodyBlock{
+    background-color: pink;
+    width: 100%;
+}
 .aboutMeBody{
     display: flex;
     flex-direction: column;

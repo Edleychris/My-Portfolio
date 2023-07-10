@@ -111,7 +111,6 @@ body{
         grid-template-columns: repeat(2, 1fr);
         gap: .8rem;
         background-color: blue;
-        /* display: block; */
     }
     .project_item{
         padding: 1.3rem;
