@@ -88,3 +88,67 @@
 .project_item_cta a:hover::before{
     width: 100%;
 }
+
+
+/* MEDIA QUERY */
+@media screen and (max-width: 987px){
+body{
+    background-color: green;
+}
+.project_main_container{
+    margin-top: 3rem;
+}
+.project_container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem;
+}
+
+}
+
+@media screen and (max-width: 670px) {
+    .project_container{
+        grid-template-columns: repeat(2, 1fr);
+        gap: .8rem;
+        background-color: blue;
+        /* display: block; */
+    }
+    .project_item{
+        padding: 1.3rem;
+        border: 1px solid white;
+        max-width: 80%;
+        transition: white;
+        background-color: purple;
+        margin-bottom: 1rem;
+    
+    }
+    .project_item_cta a{
+        font-size: 12px;
+    }
+
+
+}
+
+@media screen and (max-width: 487px) {
+    .project_container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2.5rem;
+    }
+    .project_main_container__h2{
+        font-size: 30px;
+    }
+    .project_item h3{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .project_item{
+        padding: 1.3rem;
+        border-radius: 2rem;
+        border: 1px solid white;
+        max-width: 100%;
+        transition: white;
+    
+    }
+
+}

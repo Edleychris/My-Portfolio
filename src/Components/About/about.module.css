@@ -27,11 +27,16 @@ color: white;
 .aboutMeBody{
  display: flex;
  justify-content: space-between;
+ /* width: 50%; */
 }
 
 .aboutMeBodyBlock{
     margin-top: 2rem;
     color: white;
+    display: flex;
+    flex-direction: column;
+ width: 50%;
+
 }
 
 .aboutMeBodyBlock h4{
@@ -67,14 +72,12 @@ color: white;
     font-size: 20px;
 }
 
-.aboutMeText{
-
-}
-
 /* MEDIA QUERY */
 @media screen and (max-width: 987px) {
     .aboutMeContainer{
         padding: 50px;
+        background-color: red;
+
 
     }
    .aboutMeHeader p{
@@ -104,5 +107,6 @@ font-size: 30px;
 .aboutMeHeader p,
 .aboutMeText{
     font-size: 16px;
+    background-color: red;
 }
 }

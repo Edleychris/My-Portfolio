@@ -1,25 +1,28 @@
-import React from 'react'
-import home from './home.module.css'
-import { CTA } from './CTA'
+import React from "react";
+import home from "./home.module.css";
+import { CTA } from "./CTA";
+import nk from "../../assets/nk.jpg";
 
 function Home() {
   return (
-    <div id='home' className={home.homeContainer}>
-    <div className={home.homeContainerText}>
-      <h1>Hi, I'm Edith O.</h1>
-      <h3>Frontend Developer</h3>
-      <p>
-        In publishing and graphic design, Lorem ipsum is a placeholder text
-        commonly used to demonstrate the visual form of a document or a
-        typeface without relying on meaningful content. Lorem ipsum may be
-        used as a placeholder before final copy is available.
-      </p>
-      <CTA />
+    <div id="home" className={home.homeContainer}>
+      <div className={home.homeContainerText}>
+        <h1>Hi, I'm Edith O.</h1>
+        <h3>Frontend Developer</h3>
+        <p>
+          I specialize in developing visually appealing websites that provide
+          seamless navigation and deliver an enjoyable user experience. With a
+          natural talent for innovative design and a deep understanding of
+          front-end technologies, I bring together aesthetics and functionality
+          to create captivating digital experiences.
+        </p>
+        <CTA />
+      </div>
+      <div className={home.homeContainerImage}>
+        <img src={nk} alt="" />
+      </div>
     </div>
-    <div className={home.homeContainerImage}>
-    </div>
-  </div>
-  )
+  );
 }
 
-export default Home
+export default Home;

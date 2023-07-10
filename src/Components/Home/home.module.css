@@ -1,158 +1,169 @@
-.homeContainer{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 90vh;
-    max-width: 1400px;
-    padding: 30px;
+.homeContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90vh;
+  max-width: 1400px;
+  padding: 30px;
 }
 
-.homeContainerText{
-    max-width: 45%;
-    color: white;
+.homeContainerText {
+  max-width: 45%;
+  color: white;
 }
 
-.homeContainerText h1{
-    font-size: 60px;
-    font-weight: 700;
+.homeContainerText h1 {
+  font-size: 60px;
+  font-weight: 700;
 }
 
-.homeContainerText h3{
-    color: transparent;
-    -webkit-text-stroke: .4px white;
-    font-size: 35px;
-    background-image: linear-gradient(white,#F9F5EB);
-    background-repeat: no-repeat;
-    -webkit-background-clip: text;
-    background-position: 0 0;
-    animation: homeBgText 6s linear infinite;
-    animation-delay: 2s;
+.homeContainerText h3 {
+  color: transparent;
+  -webkit-text-stroke: 0.4px white;
+  font-size: 35px;
+  background-image: linear-gradient(white, #f9f5eb);
+  background-repeat: no-repeat;
+  -webkit-background-clip: text;
+  background-position: 0 0;
+  animation: homeBgText 6s linear infinite;
+  animation-delay: 2s;
 }
 
-.homeContainerText h3::before{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 100%;
-    border-right: 2px solid #0A2647;
-    z-index: -1;
+.homeContainerText h3::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  border-right: 2px solid #0a2647;
+  z-index: -1;
 }
 
-.homeContainerText p{
-    font-size: 20px;
-    margin-top: .5rem;
+.homeContainerText p {
+  font-size: 20px;
+  margin-top: 0.5rem;
 }
 
-.buttonContainer{
-    margin-top: 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 32rem;
-    padding: 1rem 4rem;
-    gap: 2rem;
+.buttonContainer {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32rem;
+  padding: 1rem 4rem;
+  gap: 2rem;
 }
 
-.buttonContainer a{
-    position: relative;
-    text-decoration: none;
-    border: 0.5px solid white;
-    padding: 1rem 2rem;
-    color: inherit;
-    font-weight: 500;
-    width: 15rem;
-    display: flex;
-    align-self: center;
-    justify-content: center;
-    z-index: 1;
-    overflow: hidden;
-    transition: .5s;
-    margin-top: 1.5rem;    
+.buttonContainer a {
+  position: relative;
+  text-decoration: none;
+  border: 0.5px solid white;
+  padding: 1rem 2rem;
+  color: inherit;
+  font-weight: 500;
+  width: 15rem;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  z-index: 1;
+  overflow: hidden;
+  transition: 0.5s;
+  margin-top: 1.5rem;
+  cursor: pointer;
 }
 
-.buttonContainer a::before{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: #205295;
-    z-index: -1;
-    height: 100%;
-    width: 0;
-    transition: .5s;
+.buttonContainer a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #205295;
+  z-index: -1;
+  height: 100%;
+  width: 0;
+  transition: 0.5s;
 }
 
-.buttonContainer a:hover::before{
-    width: 100%;
+.buttonContainer a:hover::before {
+  width: 100%;
 }
 
-.homeContainerImage{
-    width: 25rem;
-    height: 25rem;
-    border-radius: 50%;
-    background-image: url('../../assets/lady.jpg');
-    background-color: #205295; 
-    object-fit: contain;
-    background-repeat: no-repeat;
-    background-blend-mode: multiply;
+.homeContainerImage {
+  width: 25rem;
+  height: 25rem;
+  border-radius: 50%;
+  background-image: url("../../assets/lady.jpg");
+  background-color: #205295;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
 }
-
+.homeContainerImage img {
+  width: 25rem;
+  height: 25rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
 
 /* KEYFRAMES ANIMATION */
 @keyframes homeBgText {
-    0%, 10%, 100%{
-        background-position: -40rem 0;
-    }
-    65%, 85%{
-        background-position: 0 0;
-    }
+  0%,
+  10%,
+  100% {
+    background-position: -40rem 0;
+  }
+  65%,
+  85% {
+    background-position: 0 0;
+  }
 }
-
 
 /* MEDIA QUERY */
 @media screen and (max-width: 987px) {
-    .homeContainer{
-        padding: 50px;
-    }
-.homeContainerText{
+  .homeContainer {
+    padding: 50px;
+  }
+  .homeContainerText {
     max-width: 45%;
-}
-.homeContainerText h1{
+  }
+  .homeContainerText h1 {
     font-size: 40px;
-}
-.homeContainerText h3{
-    -webkit-text-stroke: .2px white;
+  }
+  .homeContainerText h3 {
+    -webkit-text-stroke: 0.2px white;
     font-size: 25px;
     font-weight: lighter;
-    background-image: linear-gradient(white,white);
- 
-}
-.homeContainerText p{
+    background-image: linear-gradient(white, white);
+  }
+  .homeContainerText p {
     font-size: 18px;
-    margin-top: .5rem;
+    margin-top: 0.5rem;
     line-height: 1.5rem;
-}
-.homeContainerImage{
+  }
+  .homeContainerImage {
     width: 18rem;
     height: 18rem;
     border-radius: 50%;
-}
-.buttonContainer{
+  }
+  .homeContainerImage img {
+    width: 18rem;
+    height: 18rem;
+  }
+  .buttonContainer {
     width: 25rem;
     padding: 1rem 0em;
     gap: 1rem;
-}
-.buttonContainer a{
+  }
+  .buttonContainer a {
     font-weight: 500;
     font-size: 12px;
     width: 10rem;
-    margin-top: 1.5rem;    
-}
+    margin-top: 1.5rem;
+  }
 }
 @media screen and (max-width: 670px) {
-.homeContainer{
+  .homeContainer {
     display: flex;
     flex-direction: column-reverse;
     justify-content: space-between;
@@ -160,28 +171,33 @@
     height: 100vh;
     padding: 10px;
     width: 100vw;
-}
-.homeContainerImage{
+  }
+  .homeContainerImage {
     width: 20rem;
     height: 20rem;
     margin-top: 2rem;
-}
-.homeContainerText{
+  }
+  .homeContainerImage img {
+    width: 20rem;
+    height: 20rem;
+    /* margin-top: 2rem; */
+  }
+  .homeContainerText {
     max-width: 100vw;
     color: white;
     height: 50vh;
-}
+  }
 
-.homeContainerText h1{
+  .homeContainerText h1 {
     font-size: 30px;
     font-weight: 700;
-}
-.buttonContainer{
-    margin-top: -1.5rem;    
-}
+  }
+  .buttonContainer {
+    margin-top: -1.5rem;
+  }
 }
 @media screen and (max-width: 487px) {
-.homeContainerText{
+  .homeContainerText {
     max-width: 100vw;
     padding: 10px;
     color: white;
@@ -189,22 +205,24 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-.buttonContainer{
+  }
+  .buttonContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 10rem;
     gap: 0rem;
-}
-.homeContainerImage{
+  }
+  .homeContainerImage {
     width: 15rem;
     height: 15rem;
-    margin-top: 3rem;
-}
-.homeContainerText p{
+  }
+  .homeContainerImage img {
+    width: 15rem;
+    height: 15rem;
+  }
+  .homeContainerText p {
     font-size: 16px;
-
-}
+  }
 }
