@@ -7,11 +7,10 @@ function About() {
       <div className={about.aboutMeHeader}>
         <h2>About Me</h2>
         <p>
-          Collaborated with diverse teams, including backend developers,
-          designers, and other stakeholders, to create robust websites.
-          Integrating frontend designs with various expertise, delivering
-          exceptional user experiences that harmonize aesthetics and
-          functionality.
+          As a frontend developer, I focus on building captivating websites that
+          engage users. With a keen eye for design and expertise in front-end
+          technologies, I strive to create impactful web experiences that leave
+          a lasting impression.
         </p>
       </div>
 
@@ -36,11 +35,16 @@ function About() {
             <p className={about.aboutMeDates}>
               <span></span> 2023-Present
             </p>
-            <h4>Stutern</h4>
+            <h4>
+              Genesys Upskills <br></br>
+              <span className={about.smallText} style={{ color: "#2C74B3" }}>
+                Remote Mentor(Volunteer)
+              </span>
+            </h4>
             <p className={about.aboutMeText}>
-              In publishing and graphic design, Lorem ipsum is a placeholder
-              text commonly used to demonstrate the visual form of a document or
-              a typeface without relying on meaningful content.
+              Mentorship and training of young software developers transitioning
+              into Tech. Achieved 70% students performance improvement on Html,
+              CSS and JavaScript.
             </p>
           </div>
 
@@ -48,14 +52,19 @@ function About() {
             <p className={about.aboutMeDates}>
               <span></span> 2022-2023
             </p>
-            <h4>Stutern Graduate Accelerator, Remote Intern.</h4>
+            <h4>
+              Stutern Graduate Accelerator<br></br>
+              <span className={about.smallText} style={{ color: "#2C74B3" }}>
+                Remote Intern
+              </span>
+            </h4>
             <p className={about.aboutMeText}>
-              Mentorship to foster continuous growth in frontend web
-              development encompassing HTML, CSS, JavaScript, Bootstrap,
-              React.js, and database integration. Additionally, emphasized
-              collaborative practices with backend developers, data analysts,
-              and designers to create cohesive and efficient solutions that meet
-              industry standards and user expectations.
+              Mentorship to foster continuous growth in frontend web development
+              encompassing HTML, CSS, JavaScript, Bootstrap, React.js, and
+              database integration. Additionally, emphasized collaborative
+              practices with backend developers, data analysts, and designers to
+              create cohesive and efficient solutions that meet industry
+              standards and user expectations.
             </p>
           </div>
 
@@ -63,13 +72,18 @@ function About() {
             <p className={about.aboutMeDates}>
               <span></span> 2019-2020
             </p>
-            <h4>Huawei Technology (Airtel Switch), Engineer.</h4>
+            <h4>
+              Huawei Technology (Airtel Switch)<br></br>
+              <span className={about.smallText} style={{ color: "#2C74B3" }}>
+                Engineer
+              </span>
+            </h4>
             <p className={about.aboutMeText}>
-              Collaborated with diverse teams, including backend developers,
-              designers, and other stakeholders, to create robust websites.
-              Integrating frontend designs with various expertise, delivering
-              exceptional user experiences that harmonize aesthetics and
-              functionality.
+              Skilled in site maintenance, installation, and performance
+              monitoring. Proficient troubleshooter with strong problem-solving
+              abilities. Detail-oriented, innovative, and adaptable with
+              excellent communication skills. Strong technical expertise and a
+              focus on efficiency.
             </p>
           </div>
         </div>

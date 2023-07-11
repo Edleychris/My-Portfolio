@@ -13,9 +13,7 @@ function Home() {
           I specialize in developing visually appealing websites that provide
           seamless navigation and deliver an enjoyable user experience. With a
           natural talent for innovative design and a deep understanding of
-          front-end technologies, 
-          {/* I bring together aesthetics and functionality
-          to create captivating digital experiences. */}
+          front-end technologies.
         </p>
         <CTA />
       </div>

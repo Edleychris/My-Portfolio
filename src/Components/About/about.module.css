@@ -70,6 +70,9 @@ color: white;
 .aboutMeBodyText h4{
     font-size: 20px;
 }
+.smallText{
+    font-size: 16px;
+}
 
 /* MEDIA QUERY */
 @media screen and (max-width: 987px) {
