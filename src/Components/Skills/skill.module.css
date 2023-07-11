@@ -1,12 +1,10 @@
 .skillContainer{
-    /* background-color: red; */
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
-    height: 100vh;
     margin-top: 4rem;
     color: white;
+    max-width: 1400px;
 }
 
 .skillContainer h2{
@@ -16,25 +14,21 @@
 }
 
 .container{
-    /* background-color: green; */
     display: flex;
-    width: 70%;
+    width: 80%;
     justify-content: space-between;
     align-items: center;
     margin-top: 2rem;
 }
-
 .mainSkillContainer{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
     width: 45%;
-    /* background-color: pink; */
     border: 1px solid white;
     border-radius: 10px;
 }
-
 .mainSkillContainer h3{
     font-size: 25px;
     margin-bottom: 1rem;
@@ -46,7 +40,6 @@
     justify-content: space-around;
     width: 100%;
 }
-
 .mySkillsContainer{
     display: flex;
     align-items: flex-start;
@@ -54,7 +47,6 @@
     width: 100%;
     margin-bottom: 3rem;
 }
-
 .icon{
     display: flex;
     margin-top: 1.2rem;
@@ -68,5 +60,56 @@
 }
 
 .mySkills p{
-    font-size: 12px;
+    font-size: 14px;
+}
+@media screen and (max-width: 1024px) {
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 2rem;
+    }
+}
+@media screen and (max-width: 880px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 0rem;
+        gap: 1rem;
+    }
+    .mainSkillContainer{
+        width: 100%;
+
+    }
+
+}
+@media screen and (max-width: 450px) {
+    .skillContainer h2{
+font-size: 30px;
+    }
+    .mainSkillContainer h3{
+        font-size: 20px;
+        margin-top: 1rem;
+    }
+    .mainSkillContainer{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid white;
+        border-radius: 10px;
+    }
+    .skillBlock{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+    }
+.mySkillsContainer{
+    width: 10rem;
+}
+
 }

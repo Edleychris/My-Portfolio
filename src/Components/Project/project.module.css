@@ -3,6 +3,7 @@
     max-width: 1400px;
     height: 100%;
     color: white;
+    margin-bottom: 2rem;
 }
 .project_main_container__h2{
     display: flex;
@@ -10,7 +11,6 @@
     justify-content: center;
     margin-bottom: 3rem;
     font-size: 35px;
-    /* margin-bottom: .5rem; */
     -webkit-text-stroke: .7px rgb(98, 98, 110);
 }
 .project_container{
@@ -19,13 +19,10 @@
     gap: 2.5rem;
 }
 .project_item{
-    /* background-color: #205295; */
     padding: 1.3rem;
     border-radius: 2rem;
     border: 1px solid white;
-    /* max-width: 40%; */
     transition: white;
-
 }
 .project_item h3{
     font-size: 20px;
@@ -39,7 +36,6 @@
     border-radius: .5rem;
     overflow: hidden;
     margin-bottom: 1rem;
-    /* max-width: 30%; */
 }
 .project_item_image img{
     width: 100%;
@@ -70,9 +66,6 @@
     margin-top: 1.5rem;    
     font-size: 14px;
 }
-/* .project_item_cta a:hover{
-    background-color: #205295;
-} */
 .project_item_cta a::before{
     content: '';
     position: absolute;
@@ -84,17 +77,23 @@
     width: 0;
     transition: .5s;
 }
-
 .project_item_cta a:hover::before{
     width: 100%;
 }
 
 
 /* MEDIA QUERY */
-@media screen and (max-width: 987px){
-body{
-    background-color: green;
+@media screen and (max-width: 1024px){
+    .project_container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2.5rem;
+    }
+.project_main_container__h2{
+    font-size: 30px;
 }
+}
+@media screen and (max-width: 987px){
 .project_main_container{
     margin-top: 3rem;
 }
@@ -103,31 +102,16 @@ body{
     grid-template-columns: repeat(2, 1fr);
     gap: 2.5rem;
 }
-
 }
-
 @media screen and (max-width: 670px) {
     .project_container{
         grid-template-columns: repeat(2, 1fr);
         gap: .8rem;
-        background-color: blue;
-    }
-    .project_item{
-        padding: 1.3rem;
-        border: 1px solid white;
-        max-width: 80%;
-        transition: white;
-        background-color: purple;
-        margin-bottom: 1rem;
-    
     }
     .project_item_cta a{
         font-size: 12px;
     }
-
-
 }
-
 @media screen and (max-width: 487px) {
     .project_container{
         display: grid;
@@ -147,7 +131,6 @@ body{
         border: 1px solid white;
         max-width: 100%;
         transition: white;
-    
     }
 
 }

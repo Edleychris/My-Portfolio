@@ -1,5 +1,5 @@
 .aboutMeContainer{
-     height: 100%;
+     /* height: 100%; */
     max-width: 1400px;
     padding: 30px;
 }
@@ -16,7 +16,6 @@ color: white;
     font-size: 45px;
     margin-bottom: .5rem;
     -webkit-text-stroke: .7px rgb(98, 98, 110);
-    /* -webkit-text-stroke: .7px white; */
 }
 
 .aboutMeHeader p{
@@ -74,37 +73,45 @@ color: white;
 
 /* MEDIA QUERY */
 @media screen and (max-width: 987px) {
+    .aboutMeHeader{
+        margin-top: -4rem;
+       }
     .aboutMeContainer{
         padding: 50px;
-        background-color: red;
-
-
     }
    .aboutMeHeader p{
     font-size: 18px;
 }
 }
 @media screen and (max-width: 670px) {
+    .aboutMeHeader{
+        margin-top: -3rem;
+       }
     .aboutMeBody{
         display: flex;
         flex-direction: column;
     }
     .aboutMeBodyBlock{
-        background-color: orange;
-        width: 100%;
+        width: 107%;
     }
 .aboutMeContainer{
     margin-top: 3rem;
 }
 
 }
-@media screen and (max-width: 487px) {
+@media screen and (max-width: 560px) {
+
     .aboutMeHeader{
-        margin-top: 4rem;
+        margin-top: -4rem;
+       }
+}
+@media screen and (max-width: 487px) {
+
+    .aboutMeHeader{
+        margin-top: -4rem;
 
     }
 .aboutMeBodyBlock{
-    background-color: pink;
     width: 100%;
 }
 .aboutMeBody{
@@ -118,6 +125,25 @@ font-size: 30px;
 .aboutMeHeader p,
 .aboutMeText{
     font-size: 16px;
-    background-color: red;
 }
+}
+@media screen and (max-width: 460px) {
+    .aboutMeHeader{
+        margin-top: -7rem;
+
+    }
+}
+@media screen and (max-width: 360px) {
+    .aboutMeHeader{
+        margin-top: -8rem;
+
+    }
+
+}
+@media screen and (max-width: 330px) {
+    .aboutMeHeader{
+        margin-top: 7rem;
+
+    }
+
 }

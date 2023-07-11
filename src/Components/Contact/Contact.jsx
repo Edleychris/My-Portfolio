@@ -2,7 +2,7 @@ import React from 'react';
 import {FaRegEnvelope} from 'react-icons/fa';
 import {BsWhatsapp} from 'react-icons/bs';
 import con from './contact.module.css'
-// import Socials from './Socials';
+import Socials from './Socials';
 
 
 function Contact() {
@@ -37,8 +37,10 @@ function Contact() {
     <button type='submit'>Send Message</button>
     </form>
     </div>
+<div className={con.SocialsBlock}> 
+<Socials/>
 
-   {/* <Socials/> */}
+</div>
     </div>
     
   )
