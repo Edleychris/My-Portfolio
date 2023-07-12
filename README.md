@@ -18,7 +18,7 @@ To run this portfolio locally, follow these steps:
 2. Navigate to the project directory in your terminal.
 3. Run the command `npm install` to install the required dependencies.
 4. Once the installation is complete, execute `npm start` to start the development server.
-5. Open your browser and visit `http://localhost:3000` to view the portfolio.
+5. Open your browser and visit `http://localhost:5173` to view the portfolio.
 
 ## Usage
 
