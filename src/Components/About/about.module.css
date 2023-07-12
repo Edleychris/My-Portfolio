@@ -80,13 +80,18 @@ color: white;
         margin-top: -4rem;
        }
     .aboutMeContainer{
+        margin-top: 2rem;
         padding: 50px;
     }
    .aboutMeHeader p{
     font-size: 18px;
 }
+.aboutMeContainer{
+    /* background-color: green; */
+}
 }
 @media screen and (max-width: 670px) {
+   
     .aboutMeHeader{
         margin-top: -3rem;
        }
