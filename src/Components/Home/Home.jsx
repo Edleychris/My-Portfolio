@@ -7,7 +7,7 @@ function Home() {
   return (
     <div id="home" className={home.homeContainer}>
       <div className={home.homeContainerText}>
-        <h1>Hi, I'm Edith O.</h1>
+        <h1>Hi, I'm Nkiruka O.</h1>
         <h3>Frontend Developer</h3>
         <p>
           I specialize in developing visually appealing websites that provide

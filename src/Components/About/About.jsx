@@ -1,4 +1,3 @@
-import React from "react";
 import about from "./about.module.css";
 
 function About() {
@@ -7,10 +6,16 @@ function About() {
       <div className={about.aboutMeHeader}>
         <h2>About Me</h2>
         <p>
-          As a frontend developer, I focus on building captivating websites that
+          {/* As a frontend developer, I focus on building captivating websites that
           engage users. With a keen eye for design and expertise in front-end
           technologies, I strive to create impactful web experiences that leave
-          a lasting impression.
+          a lasting impression. */}
+          Nkiruka is an ambitious and skilled software developer, seeking a dynamic and challenging
+          career opportunity that leverages her extensive experience in React.js, Vue.js, and full-stack
+          development, dedicated to driving the success of forward-thinking companies by delivering
+          innovative solutions, enhancing operational efficiency, and contributing to team success. she
+          aims to continuously expand her technical expertise and professional growth within a
+          stimulating and collaborative environment.
         </p>
       </div>
 
@@ -33,57 +38,58 @@ function About() {
           <h4>Experience</h4>
           <div className={about.aboutMeBodyText}>
             <p className={about.aboutMeDates}>
-              <span></span> 2023-Present
+              <span></span>Aug. 2023-Present
             </p>
             <h4>
-              Genesys Upskills <br></br>
+              Scello Technologies Nig Ltd <br></br>
               <span className={about.smallText} style={{ color: "#2C74B3" }}>
-                Remote Mentor(Volunteer)
+                Frontend Developer
               </span>
             </h4>
             <p className={about.aboutMeText}>
-              Mentorship and training of young software developers transitioning
-              into Tech. Achieved 70% students performance improvement on Html,
-              CSS and JavaScript.
+              • Played a crucial role in developing and launching Cornie Health, a comprehensive health
+              solution used by various healthcare sectors.
+              • Contributed to the development of robust frontend architectures, ensuring scalability and
+              maintainability
             </p>
           </div>
 
           <div className={about.aboutMeBodyText}>
             <p className={about.aboutMeDates}>
-              <span></span> 2022-2023
+              <span></span>Jan. 2022- Jan. 2024
             </p>
             <h4>
-              Stutern Graduate Accelerator<br></br>
+              Green Tech Communications & Network Ltd<br></br>
               <span className={about.smallText} style={{ color: "#2C74B3" }}>
-                Remote Intern
+                Frontend Developer
               </span>
             </h4>
             <p className={about.aboutMeText}>
-              Mentorship to foster continuous growth in frontend web development
-              encompassing HTML, CSS, JavaScript, Bootstrap, React.js, and
-              database integration. Additionally, emphasized collaborative
-              practices with backend developers, data analysts, and designers to
-              create cohesive and efficient solutions that meet industry
-              standards and user expectations.
+              • Contributed to the design and development of web-based user interfaces, crafting
+              highly responsive web applications using React.js.
+            </p>
+            <p className={about.aboutMeText}>
+              • Successfully oversaw the deployment of two major platforms: NaijaKoboMarket, an e-commerce solution, and Stella Sync, a data synchronization health solution platform.
             </p>
           </div>
 
           <div className={about.aboutMeBodyText}>
             <p className={about.aboutMeDates}>
-              <span></span> 2019-2020
+              <span></span>Aug. 2022- Dec. 2022
             </p>
             <h4>
-              Huawei Technology (Airtel Switch)<br></br>
+              Scillafield Solution Ltd<br></br>
               <span className={about.smallText} style={{ color: "#2C74B3" }}>
-                Engineer
+                Frontend Developer (Contract)
               </span>
             </h4>
             <p className={about.aboutMeText}>
-              Skilled in site maintenance, installation, and performance
-              monitoring. Proficient troubleshooter with strong problem-solving
-              abilities. Detail-oriented, innovative, and adaptable with
-              excellent communication skills. Strong technical expertise and a
-              focus on efficiency.
+              • Developed secure and user-friendly applications using React.js and Next.js,
+              significantly enhancing health performance and user experience.
+            </p>
+            <p className={about.aboutMeText}>
+              • Designed and implemented responsive interfaces, ensuring seamless functionality
+              across multiple devices and browsers with React.js, Vue.js, and Bootstrap.
             </p>
           </div>
         </div>
