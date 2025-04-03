@@ -10,7 +10,7 @@ function Skill () {
         <div className={skill.mainSkillContainer}>
           <h3>Frameworks/Libraries</h3>
           <div className={skill.skillBlock}>
-          <div>
+          <div className={skill.sub_contai}>
             <div className={skill.mySkillsContainer}>
               <BsPatchCheck  className={skill.icon}/>
               <div className={skill.mySkills}>
@@ -31,9 +31,6 @@ function Skill () {
                 <h3>Nuxt.js</h3>
               </div>
             </div>
-         </div>
-
-         <div>
             <div className={skill.mySkillsContainer}>
               <BsPatchCheck className={skill.icon} />
               <div className={skill.mySkills}>
@@ -51,10 +48,13 @@ function Skill () {
             <div className={skill.mySkillsContainer}>
               <BsPatchCheck  className={skill.icon}/>
               <div className={skill.mySkills}>
-                <h3>Bootsrap</h3>
+                <h3>Bootstrap</h3>
               </div>
             </div>
-            </div>
+         </div>
+
+         {/* <div>
+            </div> */}
           </div>
         </div>
 
@@ -76,6 +76,12 @@ function Skill () {
                 <h3>Typescript</h3>
               </div>
             </div>
+            <div className={skill.mySkillsContainer}>
+              <BsPatchCheck className={skill.icon}/>
+              <div className={skill.mySkills}>
+                <h3>PHP</h3>
+              </div>
+            </div>
 
          </div>
           </div>
@@ -84,7 +90,8 @@ function Skill () {
         <div className={skill.iio}>
           <h3>State Management</h3>
           <div className={skill.skillBlock}>
-          <div className={skill.sub_contai} style={{ width: '56%' }}>
+          <div className={skill.sub_contai} >
+          {/* style={{ width: '56%' }} */}
             <div className={skill.mySkillsContainer}>
               <BsPatchCheck className={skill.icon}/>
               <div className={skill.mySkills}>
@@ -95,6 +102,18 @@ function Skill () {
               <BsPatchCheck className={skill.icon}/>
               <div className={skill.mySkills}>
                 <h3>Vuex</h3>
+              </div>
+            </div>
+            <div className={skill.mySkillsContainer}>
+              <BsPatchCheck className={skill.icon}/>
+              <div className={skill.mySkills}>
+                <h3>Pinia</h3>
+              </div>
+            </div>
+            <div className={skill.mySkillsContainer}>
+              <BsPatchCheck className={skill.icon}/>
+              <div className={skill.mySkills}>
+                <h3>Zustand</h3>
               </div>
             </div>
          </div>

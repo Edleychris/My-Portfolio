@@ -1,5 +1,4 @@
 .aboutMeContainer{
-     /* height: 100%; */
     max-width: 1400px;
     padding: 30px;
 }
@@ -145,11 +144,17 @@ font-size: 30px;
         margin-top: -7rem;
 
     }
+    /* .aboutMeContainer{
+        padding: 20px;
+    } */
 }
 @media screen and (max-width: 360px) {
     .aboutMeHeader{
         margin-top: -8rem;
 
+    }
+    .aboutMeContainer{
+        padding: 30px;
     }
 
 }
@@ -157,6 +162,9 @@ font-size: 30px;
     .aboutMeHeader{
         margin-top: 7rem;
 
+    }
+    .aboutMeContainer{
+        padding: 20px;
     }
 
 }

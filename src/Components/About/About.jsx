@@ -24,6 +24,16 @@ function About() {
           <h4>Education</h4>
           <div className={about.aboutMeBodyText}>
             <p className={about.aboutMeDates}>
+              <span></span> 2023-2024
+            </p>
+            <h4>AltSchool Africa</h4>
+            <p className={about.aboutMeText}>
+            AltSchool Africa Diploma of Engineering, Frontend
+            Engineeing (React.js, Vue.js)
+            </p>
+          </div>
+          <div className={about.aboutMeBodyText}>
+            <p className={about.aboutMeDates}>
               <span></span> 2015-2021
             </p>
             <h4>Abubakar Tafawa Balewa University, Bauchi State</h4>
@@ -32,13 +42,14 @@ function About() {
               Engineering.
             </p>
           </div>
+          
         </div>
 
         <div className={about.aboutMeBodyBlock}>
           <h4>Experience</h4>
           <div className={about.aboutMeBodyText}>
             <p className={about.aboutMeDates}>
-              <span></span>Aug. 2023-Present
+              <span></span>Aug. 2023-Dec. 2024
             </p>
             <h4>
               Scello Technologies Nig Ltd <br></br>
@@ -47,8 +58,8 @@ function About() {
               </span>
             </h4>
             <p className={about.aboutMeText}>
-              • Played a crucial role in developing and launching Cornie Health, a comprehensive health
-              solution used by various healthcare sectors.
+              • Successfully designed and built a responsive user interface using Vue.js & Nuxt,js,  
+              resulting in a 30% increase in user engagement through improved web interactions.
               • Contributed to the development of robust frontend architectures, ensuring scalability and
               maintainability
             </p>
@@ -65,8 +76,8 @@ function About() {
               </span>
             </h4>
             <p className={about.aboutMeText}>
-              • Contributed to the design and development of web-based user interfaces, crafting
-              highly responsive web applications using React.js.
+              • Developed responsive features and queries to ensure seamless user experiences across  
+              various phone sizes
             </p>
             <p className={about.aboutMeText}>
               • Successfully oversaw the deployment of two major platforms: NaijaKoboMarket, an e-commerce solution, and Stella Sync, a data synchronization health solution platform.
