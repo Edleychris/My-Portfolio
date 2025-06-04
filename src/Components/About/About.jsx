@@ -49,6 +49,27 @@ function About() {
           <h4>Experience</h4>
           <div className={about.aboutMeBodyText}>
             <p className={about.aboutMeDates}>
+              <span></span>Aug. 2024-Present
+            </p>
+            <h4>
+              Tespire LLC <br></br>
+              <span className={about.smallText} style={{ color: "#2C74B3" }}>
+                Senior Frontend Developer
+              </span>
+            </h4>
+            <p className={about.aboutMeText}>
+              • Contributed to the successful onboarding and go-live of multiple schools, with real-time features like payment processing, student enrollment, and invoice management actively used in production.
+            </p>
+            <p className={about.aboutMeText}>
+              • Played a key role in designing and developing a scalable and responsive frontend architecture for Tespire’s school management platform, leveraging Vue.js and Nuxt.js for optimal performance and SEO.
+            </p>
+            <p className={about.aboutMeText}>
+              • Continuously improved the user experience through regular testing, feedback sessions, and performance optimizations, supporting Tespire’s mission to digitize and simplify school operations at scale.
+            </p>
+          </div>
+
+          <div className={about.aboutMeBodyText}>
+            <p className={about.aboutMeDates}>
               <span></span>Aug. 2023-Dec. 2024
             </p>
             <h4>
@@ -60,7 +81,9 @@ function About() {
             <p className={about.aboutMeText}>
               • Successfully designed and built a responsive user interface using Vue.js & Nuxt,js,  
               resulting in a 30% increase in user engagement through improved web interactions.
-              • Contributed to the development of robust frontend architectures, ensuring scalability and
+            </p>
+            <p className={about.aboutMeText}>
+             • Contributed to the development of robust frontend architectures, ensuring scalability and
               maintainability
             </p>
           </div>
