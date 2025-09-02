@@ -1,170 +1,180 @@
-.aboutMeContainer{
-    max-width: 1400px;
-    padding: 30px;
+.aboutMeContainer {
+  max-width: 1400px;
+  padding: 30px;
 }
 
-.aboutMeHeader{
- display: flex;
- flex-direction: column;
- justify-content: center;
- align-items: center;
-color: white;
+.aboutMeHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }
 
-.aboutMeHeader h2{
-    font-size: 45px;
-    margin-bottom: .5rem;
-    -webkit-text-stroke: .7px rgb(98, 98, 110);
+.aboutMeHeader h2 {
+  font-size: 45px;
+  margin-bottom: 0.5rem;
+  -webkit-text-stroke: 0.7px rgb(98, 98, 110);
 }
 
-.aboutMeHeader p{
-    max-width: 95%;
-    font-size: 20px;
+.aboutMeHeader p {
+  max-width: 95%;
+  font-size: 20px;
 }
 
-.aboutMeBody{
- display: flex;
- justify-content: space-between;
- /* width: 50%; */
+.aboutMeBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* width: 50%; */
 }
 
-.aboutMeBodyBlock{
-    margin-top: 2rem;
-    color: white;
-    display: flex;
-    flex-direction: column;
- width: 50%;
-
+.aboutMeBodyBlock {
+  margin-top: 2rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
-.aboutMeBodyBlock h4{
-    font-size: 20px;
-    margin-bottom: .5rem;
-    font-weight: 500;
+.aboutMeBodyBlock h4 {
+  font-size: 20px;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  text-align: center;
+}
+.aboutMeBodyTextCont {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 15px;
 }
 
-.aboutMeBodyText{
-    border: 1px solid white;
-    max-width: 90%;
-    padding: 7px;
-    margin-bottom: .8rem;
+.aboutMeBodyText {
+  border: 1px solid white;
+  /* max-width: 90%; */
+  width: 50%;
+  padding: 7px;
+  margin-bottom: 0.8rem;
 }
 
-.aboutMeDates{
-    color: #2C74B3;
-    display: flex;
-    align-items: center;
-    gap: .5rem;
-    margin-bottom: .5rem;
+.aboutMeDates {
+  color: #2c74b3;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
-.aboutMeDates span{
-    display: inline-block;
-    background-color: #2C74B3;
-    border: 1px solid #2C74B3 ;
-    height: .8rem;
-    width: .8rem;
+.aboutMeDates span {
+  display: inline-block;
+  background-color: #2c74b3;
+  border: 1px solid #2c74b3;
+  height: 0.8rem;
+  width: 0.8rem;
 }
 
-.aboutMeBodyText h4{
-    font-size: 20px;
+.aboutMeBodyText h4 {
+  font-size: 20px;
 }
-.smallText{
-    font-size: 16px;
+.smallText {
+  font-size: 16px;
 }
 
 /* MEDIA QUERY */
 @media screen and (max-width: 987px) {
-    .aboutMeHeader{
-        margin-top: -4rem;
-       }
-    .aboutMeContainer{
-        margin-top: 2rem;
-        padding: 50px;
-    }
-   .aboutMeHeader p{
+  .aboutMeHeader {
+    margin-top: -4rem;
+  }
+  .aboutMeContainer {
+    margin-top: 2rem;
+    padding: 50px;
+  }
+  .aboutMeHeader p {
     font-size: 18px;
+  }
 }
 
-}
-   
 @media screen and (max-width: 790px) {
-    .aboutMeContainer{
-        /* background-color: green; */
-        margin-top: 5rem;
-    }
+  .aboutMeContainer {
+    /* background-color: green; */
+    margin-top: 5rem;
+  }
 }
 @media screen and (max-width: 670px) {
-   
-    .aboutMeHeader{
-        margin-top: -3rem;
-       }
-    .aboutMeBody{
-        display: flex;
-        flex-direction: column;
-    }
-    .aboutMeBodyBlock{
-        width: 107%;
-    }
-.aboutMeContainer{
-    margin-top: 3rem;
-}
-
-}
-@media screen and (max-width: 560px) {
-
-    .aboutMeHeader{
-        margin-top: -4rem;
-       }
-}
-@media screen and (max-width: 487px) {
-
-    .aboutMeHeader{
-        margin-top: -4rem;
-
-    }
-.aboutMeBodyBlock{
-    width: 100%;
-}
-.aboutMeBody{
+  .aboutMeHeader {
+    margin-top: -3rem;
+  }
+  .aboutMeBody {
     display: flex;
     flex-direction: column;
+  }
+  .aboutMeBodyBlock {
+    width: 107%;
+  }
+  .aboutMeContainer {
+    margin-top: 3rem;
+  }
+  .aboutMeBodyTextCont {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    gap: 15px;
+  }
+  .aboutMeBodyText {
+    border: 1px solid white;
+    width: 100%;
+    padding: 7px;
+    margin-bottom: 0.8rem;
+  }
 }
-.aboutMeHeader h2{
+@media screen and (max-width: 560px) {
+  .aboutMeHeader {
+    margin-top: -4rem;
+  }
+}
+@media screen and (max-width: 487px) {
+  .aboutMeHeader {
+    margin-top: -4rem;
+  }
+  .aboutMeBodyBlock {
+    width: 100%;
+  }
+  .aboutMeBody {
+    display: flex;
+    flex-direction: column;
+  }
+  .aboutMeHeader h2 {
     margin-top: 5rem;
-font-size: 30px;
-}
-.aboutMeHeader p,
-.aboutMeText{
+    font-size: 30px;
+  }
+  .aboutMeHeader p,
+  .aboutMeText {
     font-size: 16px;
-}
+  }
 }
 @media screen and (max-width: 460px) {
-    .aboutMeHeader{
-        margin-top: -7rem;
-
-    }
-    /* .aboutMeContainer{
+  .aboutMeHeader {
+    margin-top: -7rem;
+  }
+  /* .aboutMeContainer{
         padding: 20px;
     } */
 }
 @media screen and (max-width: 360px) {
-    .aboutMeHeader{
-        margin-top: -8rem;
-
-    }
-    .aboutMeContainer{
-        padding: 30px;
-    }
-
+  .aboutMeHeader {
+    margin-top: -8rem;
+  }
+  .aboutMeContainer {
+    padding: 30px;
+  }
 }
 @media screen and (max-width: 330px) {
-    .aboutMeHeader{
-        margin-top: 7rem;
-
-    }
-    .aboutMeContainer{
-        padding: 20px;
-    }
-
+  .aboutMeHeader {
+    margin-top: 7rem;
+  }
+  .aboutMeContainer {
+    padding: 20px;
+  }
 }

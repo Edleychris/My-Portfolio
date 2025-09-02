@@ -9,8 +9,14 @@ import cornie from '../../assets/cornie.png';
 import tespire from '../../assets/tespire-co.png';
 import basic from '../../assets/tespire-basic.png';
 import spotify from '../../assets/sportify.png';
+import findlodge from '../../assets/findlodge.png';
 
 const projects = [
+   {
+    title: 'Findlodge',
+    image: findlodge,
+    links: [{ label: 'Live Demo', url: 'https://www.findlodge.ng/' }],
+  },
    {
     title: 'Tespire',
     image: tespire,

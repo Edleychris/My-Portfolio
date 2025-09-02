@@ -22,6 +22,7 @@ function About() {
       <div className={about.aboutMeBody}>
         <div className={about.aboutMeBodyBlock}>
           <h4>Education</h4>
+          <div className={about.aboutMeBodyTextCont}>
           <div className={about.aboutMeBodyText}>
             <p className={about.aboutMeDates}>
               <span></span> 2023-2024
@@ -42,19 +43,21 @@ function About() {
               Engineering.
             </p>
           </div>
+          </div>
           
         </div>
 
         <div className={about.aboutMeBodyBlock}>
           <h4>Experience</h4>
+          <div className={about.aboutMeBodyTextCont}>
           <div className={about.aboutMeBodyText}>
             <p className={about.aboutMeDates}>
-              <span></span>Aug. 2024-Present
+              <span></span>Aug. 2024-July, 2025
             </p>
             <h4>
               Tespire LLC <br></br>
               <span className={about.smallText} style={{ color: "#2C74B3" }}>
-                Senior Frontend Developer
+                Senior Frontend Developer (Contract)
               </span>
             </h4>
             <p className={about.aboutMeText}>
@@ -87,7 +90,8 @@ function About() {
               maintainability
             </p>
           </div>
-
+          </div>
+          <div className={about.aboutMeBodyTextCont}>
           <div className={about.aboutMeBodyText}>
             <p className={about.aboutMeDates}>
               <span></span>Jan. 2022- Jan. 2024
@@ -126,6 +130,8 @@ function About() {
               across multiple devices and browsers with React.js, Vue.js, and Bootstrap.
             </p>
           </div>
+          </div>
+
         </div>
       </div>
     </div>
